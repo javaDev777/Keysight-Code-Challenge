@@ -1,0 +1,24 @@
+<p>Drag the images icons back and forth between the two rectangles:</p>
+
+<div id="drop-start" class="drop-start-target">
+  <img draggable="true" id="add-icon" src="https://img.icons8.com/ios/50/000000/plus-2-math.png">
+  <img draggable="true" id="subtract-icon" src="https://img.icons8.com/ios/50/000000/minus-2-math.png">
+  <img draggable="true" id="multiply-icon" src="https://img.icons8.com/ios/50/000000/multiply-2.png">
+  <img draggable="true" id="divide-icon" src="https://img.icons8.com/ios/50/000000/divide-2.png">
+  <img draggable="true" id="square-root-icon" src="https://img.icons8.com/ios/50/000000/square-root.png">
+</div>
+
+<div id="drop-end" class="drop-end-target">
+  <input type="number" id="input-field-1" class="reset-me" />
+  <input type="number" id="input-field-2" class="reset-me" />
+  <input type="number" id="input-field-3" class="reset-me" />
+  <button id="submit-button" type="submit" (click)="showResult()">Submit</button>
+  <ng-container *ngIf="result">
+    <h4>Results = {{result}}</h4>
+  </ng-container>
+</div>
+
+<p style="clear:both;"><strong>Note:</strong> drag events are not supported in Internet Explorer 8 and earlier versions
+  or Safari 5.1 and earlier versions.</p>
+
+<p id="demo"></p>

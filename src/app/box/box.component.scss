@@ -1,0 +1,51 @@
+.center {
+  margin: auto;
+  //width: 100%;
+  border: 10px solid #73AD21;
+  padding: 10px;
+}
+
+.popContainer {
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  z-index: 15;
+  top: 50%;
+  left: 50%;
+  margin: -100px 0 0 -150px;
+  background: red;
+}
+
+.drop-start-target {
+  float: left;
+  width: 500px;
+  height: 150px;
+  margin: 15px;
+  padding: 10px;
+  border: 1px solid #aaaaaa;
+}
+
+.drop-end-target {
+  float: left;
+  width: 500px;
+  height: 150px;
+  margin: 15px;
+  padding: 10px;
+  border: 1px solid #aaaaaa;
+}
+
+#input-field-1 {
+  display: none;
+}
+
+#input-field-2 {
+  display: none;
+}
+
+#input-field-3 {
+  display: none;
+}
+
+#submit-button {
+  display: none;
+}
